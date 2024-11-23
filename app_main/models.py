@@ -5,7 +5,7 @@ User = get_user_model()
 
 
 class Category(models.Model):
-    image = models.URLField(null=True, blank=True, default="https://i.pinimg.com/control2/236x/9a/32/51/9a3251e176544a068d5d6c9f46d51a8e.jpg")
+    image = models.URLField(null=True, blank=True, default="https://i.pinimg.com/736x/ad/d5/48/add548c4a4c6b8f962b4c47d5a5989ca.jpg")
     name = models.CharField(max_length=255)
     bio = models.TextField()
 

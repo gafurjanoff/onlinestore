@@ -17,7 +17,7 @@ SECRET_KEY = env.str('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://samandar.azizov.dev', '127.0.0.1']
+ALLOWED_HOSTS = ['samandar.azizov.dev', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = ["https://samandar.azizov.dev"]
 # Application definition
